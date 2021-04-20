@@ -1,0 +1,66 @@
+body{
+    text-align:center;
+    background:linear-gradient(#ff7300 0%, #ff0000 100%);
+    font-family:Brush Script MT;
+}
+
+.dc{
+    width:300px;
+    height:auto;
+}
+
+h1{
+    padding-top:100px;
+    font-size:35px;
+}
+
+p{
+    font-size:25px;
+    line-height:2;
+}
+
+.menu{
+    list-style:none;
+    position:absolute;
+    top:10px;
+    right:600px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.links{
+    float:left;
+    padding:5px 9px 10px 5px;
+    font-size:20px;
+    color:black;
+}
+
+.links:hover{
+    background-color:#eb6b02;
+}
+
+#welcome{
+ line-height:1px;   
+}
+
+.line{
+    height:6px;
+    background-color:black;
+    width:150px;
+    margin:-10px auto 10px;
+}
+
+a{
+    text-decoration:none;
+}
+
+#email{
+ color:blue;
+    text-decoration:underline; 
+}
+
+.projects{
+    list-style:none;
+    font-size:25px;
+    line-height:2;
+}
